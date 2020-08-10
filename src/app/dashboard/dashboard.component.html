@@ -1,0 +1,18 @@
+<div class="d-flex flex-column">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/dashboard/table" routerLinkActive="active">Table</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" routerLink="/dashboard/info" routerLinkActive="active">Info</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="flex-grow-1" [@slideAnimation]="o && o.activatedRouteData 
+  && o.activatedRouteData['animation']">
+    <router-outlet #o="outlet"></router-outlet>
+  </div>
+</div>

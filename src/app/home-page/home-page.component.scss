@@ -1,0 +1,9 @@
+@import '~bootstrap/scss/functions',
+'~bootstrap/scss/variables',
+'~bootstrap/scss/mixins/breakpoints';
+
+.bg-img {
+  background: url("../../assets/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg") center center no-repeat !important;
+  height: 100vh;
+  background-size: cover !important
+}

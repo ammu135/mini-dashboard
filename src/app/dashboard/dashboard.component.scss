@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/functions',
+'~bootstrap/scss/variables',
+'~bootstrap/scss/mixins/breakpoints';
+
+a {
+  display: block;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+.nav-link.active {
+  color: blue !important
+}
